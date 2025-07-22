@@ -1,34 +1,18 @@
+import React from 'react';
+
 function Home() {
   return (
-    <section style={styles.container}>
-      <h1 style={styles.heading}>🌟 Cristy Parsons</h1>
-      <p style={styles.paragraph}>
+    <section className="p-12 text-center bg-teal-100 font-mono rounded-xl m-8 text-gray-800">
+      <h1 className="text-5xl text-teal-700 mb-4">Hello from Cristy's Portfolio</h1>
+      <p className="text-lg">
         Welcome to my personal portfolio — a space to explore my work, skills,
         and creative tech journey.
       </p>
+      <h2 className="text-4xl text-pink-500 font-extrabold mt-8">
+        Tailwind is definitely working 💖
+      </h2>
     </section>
   );
 }
-
-const styles = {
-  container: {
-    padding: '3rem',
-    textAlign: 'center',
-    backgroundColor: '#e9f7f6',
-    fontFamily: 'monospace',
-    borderRadius: '10px',
-    margin: '2rem',
-    color: '#333',
-  },
-  heading: {
-    fontSize: '3rem',
-    color: '#5b8c85',
-    marginBottom: '1rem',
-  },
-  paragraph: {
-    fontSize: '1.2rem',
-    color: '#333',
-  },
-};
 
 export default Home;
